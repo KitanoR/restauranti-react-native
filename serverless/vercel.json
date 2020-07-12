@@ -1,0 +1,13 @@
+{
+    "name": "serverlessrest",
+    "version": 2,
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/index.js"
+        }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://admin:admin123@almuerzidb.l2krl.mongodb.net/almuerzi?retryWrites=true&w=majority"
+    }
+}
